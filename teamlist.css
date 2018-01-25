@@ -1,0 +1,112 @@
+#input {
+    background-color: orange;
+}
+
+#container{
+    width:100%;
+    text-align:center;
+}
+
+#left {
+    float: left;
+    width: 100px;
+}
+#center {
+    margin: 0 auto;
+    width: 100px;
+}
+
+#right {
+    float: right;
+    width: 100px;
+}
+
+remove {
+ color:red;
+}
+
+img {
+	max-width: 150px;
+}
+
+div {
+    height: 40px;
+}
+
+form {
+    height: inherit;
+    text-align: center;
+    border-style: groove;
+    background-color: blue;
+    color: antiquewhite;
+}
+         
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: right;
+  border-color: aquamarine;
+
+}
+
+h3 {
+    font-family:cursive;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+
+tr:nth-child(even) {
+  background-color: gainsboro;
+}
+
+#subb{
+    font-family:cursive;
+    color: antiquewhite;
+    font-size: 17px;
+}
+
+sub {
+    font-style: italic;
+    font-size: 10px;
+}
+
+thead {
+background-color:cornflowerblue;
+color:white;
+font-family: serif;
+font-size: 19px;
+
+}
+
+tfoot {
+    background-color:cornflowerblue;
+    color: white;
+    
+}
+
+p {
+    margin-top: 4em;
+    text-align: center;
+    background-color:azure;
+}
+
+/*
+@media screen and (max-width: 600px) and (min-width: 460px) {
+  body {
+      background-color: darkblue;
+      background-image: image("Andelalogo.png")
+}
+}*/
